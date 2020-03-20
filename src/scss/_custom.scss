@@ -1,0 +1,232 @@
+// Here you can add other styles
+
+.chat-body {
+  display: block;
+  overflow: hidden;
+  width: 100%
+}
+
+.chat-left .chat-content {
+  position: relative;
+  display: block;
+  border-radius: 4px;
+  text-align: left;
+  float: left;
+  margin: 0 100px 10px 20px;
+  padding: 8px 15px;
+  color: #000;
+  background-color: #edeef0;
+}
+
+.chat-right .chat-content {
+  text-align: right;
+  position: relative;
+  display: block;
+  float: right;
+  padding: 8px 15px;
+  margin: 0 20px 10px 20px;
+  clear: both;
+  color: #fff;
+  background-color: #1E9FF2;
+  border-radius: 4px;
+}
+
+.chat-left .chat-content:before {
+  right: auto;
+  left: -10px;
+  border-right-color: #edeef0;
+  border-left-color: transparent;
+  position: absolute;
+  top: 10px;
+  width: 0;
+  height: 0;
+  content: '';
+  border: 5px solid transparent;
+  border-left-color: #edeef0;
+  transform: rotate(180deg);
+}
+
+.chat-right .chat-body .chat-content:before {
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  width: 0;
+  height: 0;
+  content: '';
+  border: 5px solid transparent;
+  border-left-color: #1E9FF2;
+}
+
+.chat-application p {
+  margin: 0;
+}
+
+.sender-name {
+  color: #6B6F82;
+  margin: 5px 0px 5px 20px;
+  font-size: 12px;
+}
+
+.receiver-name {
+  color: #6B6F82;
+  margin: 5px 20px 5px 20px;
+  font-size: 12px;
+  float: right;
+}
+
+.chat-modal.modal-body {
+  height: 450px;
+  overflow: auto;
+}
+
+.dataTable thead th:last-child i {
+  display: none;
+}
+
+.dataTables_filter {
+  float: right;
+}
+
+ul.pagination {
+  float: right;
+}
+
+.dataTables_scrollHeadInner {
+  padding-right: 0px !important;
+}
+
+.modal-open {
+  overflow: auto;
+}
+
+.RRT__tabs #tab-0 {
+  display: none !important;
+}
+
+.dtbFooterhide .dataTables_wrapper table thead:last-child {
+  display: none;
+}
+
+.taginputs {
+  background-color: transparent;
+  border: 1px solid;
+  height: auto;
+  width: 466px;
+  color: #b8b4ac;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.react-tagsinput-input {
+  width: 200px !important;
+}
+
+.react-tagsinput--focused {
+  border-color: gray !important;
+}
+
+// .react-tagsinput-tag {
+//     background-color: #a29c92!important;
+//     border-radius: 2px;
+//     border: 1px solid #a29c92!important;
+//     color:black!important;
+// }
+a.btn:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+a.btn {
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+.bg-brown {
+  background: #bf9b30 !important;
+}
+
+.page-item.active .page-link {
+  z-index: 1;
+  color: #fff;
+  background-color: #bf9b30;
+  border-color: #bf9b30;
+}
+
+.sidebar .nav-link:hover {
+  color: #fff;
+  background: #bf9b30;
+}
+
+.user-no {
+  float: right;
+  height: 30px;
+  width: 30px;
+  background: #3596d8;
+  padding: 5px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 0;
+}
+
+
+.contentTable th,
+.contentTable td {
+  border: 0;
+  font-size: 17px;
+}
+
+.contentTable th {
+  color: #868282;
+  font-weight: normal;
+}
+
+.listContainer li {
+  border: 0;
+  color: #000;
+  font-size: 17px;
+}
+
+.listContainer li img {
+  float: right;
+}
+
+.inpecImgCont {
+  border-radius: 8px;
+  overflow: hidden;
+  background: #bf9b30;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.inpecImgCont img {
+  width: 100%
+}
+
+.cardHead {
+  color: #c09c32;
+  font-size: 25px;
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+}
+
+.cardBody {
+  padding-top: 0;
+}
+
+.cardRadius {
+  border-radius: 15px;
+}
+.common_width{
+  width: 100px;
+}
+
+
+.cardMinHeight{min-height: calc(100vh - 300px);}
+.spinner-grow{position: absolute; left: 50%; top: 50%;}
